@@ -40,9 +40,10 @@
                   <td colspan="2"><input class="login_box" type="password" name="password" placeholder="PASSWORD"></td>
                </tr>
                <tr>
-               	  <td colspan="2"><div class="checkbox_wrapper">
-                    <label for="keep-login">자동 로그인</label>
-                    <input type="checkbox" class="checkbox keep-login" id="keep-login" name="keep-login" value="keep-login">
+                    <td colspan="2"><div class="cbox_wrapper">
+                    <label for="keep-login"><spring:message code="message.user.login.keepLogin" /></label>
+                    <input type="checkbox" class="cbox keep-login" id="keep-login" name="keep-login" 
+                    value="keep-login">
                   </div></td>
                </tr>
                <tr>
@@ -52,28 +53,28 @@
                </tr>
                <tr>
                   <td colspan="2">
-                     <a id="register" href ="/member/signup"><div id="register_box">회원가입</div></a>
+                     <a id="register" href ="/member/signup"><div id="register_box"><spring:message code="message.user.login.signUp" /></div></a>
                   </td>
                </tr>
                <tr>
-               	<td colspan="2">
-               	<a href="https://www.naver.com"><img width="70%" src="https://user.ruliweb.com/assets/img/sns/btn_login_naver.png" alt="NAVER 아이디로 로그인"></a>
-               	</td>
+                  <td colspan="2">
+                  <a href="https://www.naver.com"><img width="70%" src="https://user.ruliweb.com/assets/img/sns/btn_login_naver.png" alt="NAVER 아이디로 로그인"></a>
+                  </td>
                </tr>
                <tr>
-               	<td colspan="2">
-               	<a href="https://www.kakaocorp.com/page/"><img width="70%" src="https://user.ruliweb.com/assets/img/sns/btn_login_kakao.png" alt="NAVER 아이디로 로그인"></a>
-               	</td>
+                  <td colspan="2">
+                  <a href="https://www.kakaocorp.com/page/"><img width="70%" src="https://user.ruliweb.com/assets/img/sns/btn_login_kakao.png" alt="NAVER 아이디로 로그인"></a>
+                  </td>
                </tr>
                <tr>
-               	<td colspan="2">
-               	<a href="https://www.google.com"><img width="70%" src="https://user.ruliweb.com/assets/img/sns/btn_login_google.png" alt="NAVER 아이디로 로그인"></a>
-               	</td>
+                  <td colspan="2">
+                  <a href="https://www.google.com"><img width="70%" src="https://user.ruliweb.com/assets/img/sns/btn_login_google.png" alt="NAVER 아이디로 로그인"></a>
+                  </td>
                </tr>
                <tr>
-               	<td colspan="2">
-               	<a href="https://www.apple.com/kr"><img width="70%" src="https://user.ruliweb.com/assets/img/sns/btn_login_apple.png" alt="NAVER 아이디로 로그인"></a>
-               	</td>
+                  <td colspan="2">
+                  <a href="https://www.apple.com/kr"><img width="70%" src="https://user.ruliweb.com/assets/img/sns/btn_login_apple.png" alt="NAVER 아이디로 로그인"></a>
+                  </td>
                </tr>
             </table>
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />

@@ -9,6 +9,9 @@
 <meta charset="UTF-8">
 <title>상세 보기</title>
 <link rel="stylesheet" href="/resources/css/style.css">
+<style>
+#container{background-image: linear-gradient(to bottom, #f9e7f9, #ffe8ef, #ffede5, #fff4e2, #f7fbe7);}
+</style>
 </head>
 <body>
 <jsp:include page="../menu.jsp"/>

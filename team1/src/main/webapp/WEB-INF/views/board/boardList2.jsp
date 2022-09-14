@@ -10,21 +10,25 @@
 <title>무서운게 딱! 좋아!</title>
 <link rel="stylesheet" href="/resources/css/style.css">
 <style type="text/css">
-.dung {
-position: absolute;
-z-index: 99;
-width: 80px;
-height: 80px;
-background: url("../resources/images/ghost1.png") no-repeat center / contain;
-animation: dung 100s infinite linear;
-}
-@keyframes dung {
-0% {top:0; left:80%;}
+.dung {position: absolute; z-index: 99; width: 80px; height: 80px;
+	   background: url("../resources/images/ghost1.png") no-repeat center / contain;
+	   animation: dung 100s infinite linear;}
+	   
+@keyframes dung { 0% {top:0; left:80%;}
 25% {top:25%; left:0;}
 50% {top:50%; left:80%;}
 75% {top:75%; left:0;}
 100% {top:99%; left:80%;}
 }
+
+@font-face {
+    font-family: 'SangSangRock';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SangSangRockOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{font-family: 'SangSangRock';}
+
 #container{background-image: linear-gradient(to bottom, #d32929, #a42027, #761a21, #4b1418, #230a0a);}
 .tbl_list td{color:#eee;}
 </style>

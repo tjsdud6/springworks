@@ -13,7 +13,7 @@
 <script src="https://kit.fontawesome.com/319f0bada6.js" crossorigin="anonymous"></script>
 <style>
 ul{width:100%; margin:0 auto; height:100%}
-li{float:left; padding:10px; margin:0px 30px; text-align:center;}
+li{width:180px; float:left; padding:10px 0px; margin:0px; text-align:center; list-style: none;}
 .collapse a{color:white; text-decoration:none;}
 .menutopbox{height:90px; margin:0px;}
 @media ( max-width: 768px ) {

@@ -9,14 +9,8 @@
 <meta charset="UTF-8">
 <title>재밌는게 딱! 좋아!</title>
 <style>
-   .dung {
-position: absolute;
-z-index: 99;
-width: 80px;
-height: 80px;
-background: url("../resources/images/smile.png") no-repeat center / contain;
-animation: dung 100s infinite linear;
-}
+.dung {position: absolute; z-index: 99; width: 80px; height: 80px; 
+   	   background: url("../resources/images/smile.png") no-repeat center / contain; animation: dung 100s infinite linear;}
 @keyframes dung {
 0% {top:15%; left:80%;}
 25% {top:25%; left:0;}
@@ -24,8 +18,10 @@ animation: dung 100s infinite linear;
 75% {top:75%; left:0;}
 100% {top:99%; left:80%;}
 }
-
 #container{background-image: linear-gradient(to bottom, #f9e7f9, #ffe8ef, #ffede5, #fff4e2, #f7fbe7);}
+@font-face {font-family: 'SBAggroB'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    		font-weight: normal; font-style: normal;}
+*{font-family: 'SBAggroB';} 
 </style>
 </head>
 <body>
